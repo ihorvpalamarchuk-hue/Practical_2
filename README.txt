@@ -1,1 +1,1 @@
-Відкрий index.html у браузері. Figma_UI.svg імпортуй у Figma. Для GitHub Pages завантаж index.html, style.css, script.js, banner.svg у корінь репозиторію. Форма демонстраційна, дані не відправляються на сервер.
+
