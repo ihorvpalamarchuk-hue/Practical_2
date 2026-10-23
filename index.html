@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Реєстрація на конференцію Devspace 2026">
+<title>Devspace — реєстрація</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header class="topbar"><div class="header-inner"><a class="brand" href="#main"><span class="brand-mark" aria-hidden="true">+</span><span>devspace</span></a><nav aria-label="Головна навігація"><a href="#about">Про подію</a><a href="#benefits">Програма</a><a href="mailto:hello@devspace.example">Контакти</a></nav></div></header>
+<main id="main" class="container"><p class="eyebrow">DEVSPACE / EVENTS</p><h1>Твій наступний крок у tech.</h1><p class="intro">Зареєструйся на конференцію та проведи день серед людей, які створюють цифрові продукти.</p>
+<div class="layout"><section class="form-card" aria-labelledby="registration-heading"><h2 id="registration-heading">Реєстрація на подію</h2><p class="form-subtitle">Заповни коротку форму — і побачимось на конференції.</p>
+<form id="registration-form"><div class="fields"><div class="field"><label for="full-name">Ім’я та прізвище *</label><input id="full-name" name="fullName" type="text" placeholder="Наприклад, Олексій Коваль" autocomplete="name" minlength="3" required></div><div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required></div><div class="field"><label for="position">Посада / спеціалізація *</label><input id="position" name="position" type="text" placeholder="Frontend Developer" minlength="2" required></div><div class="field"><label for="section">Секція конференції *</label><select id="section" name="section" required><option value="" selected disabled>Обери напрям</option><option value="development">Розробка</option><option value="design">Дизайн</option><option value="ai">Штучний інтелект</option><option value="product">Продукт</option></select></div></div>
+<div class="field upload-field"><label for="resume">Резюме або аватар</label><label class="upload" for="resume"><span class="upload-icon" aria-hidden="true">↥</span><span><strong id="upload-name">Натисни, щоб вибрати файл</strong><small>PDF, JPG або PNG · до 10 МБ</small></span></label><input id="resume" name="resume" type="file" accept=".pdf,.jpg,.jpeg,.png" aria-describedby="upload-help"><span id="upload-help" class="sr-only">Необов'язковий файл до 10 МБ</span></div>
+<label class="agreement"><input type="checkbox" name="agreement" required><span>Погоджуюсь з правилами участі та обробкою персональних даних</span></label><button class="submit" type="submit">Зареєструватися →</button><p class="note">Участь безкоштовна · Кількість місць обмежена</p><p id="form-status" class="status" role="status" aria-live="polite"></p></form></section>
+<aside class="side"><figure class="event-banner" id="about"><img src="banner.svg" alt="Devspace 2026 — Build what’s next. 14 листопада 2026, Івано-Франківськ"></figure><section class="benefits" id="benefits"><h2>Що на тебе чекає</h2><ul><li>Практичні доповіді від фахівців</li><li>Нетворкінг і нові контакти</li><li>Обговорення реальних кейсів</li></ul></section></aside></div><footer>© 2026 devspace. Навчальний концепт вебформи.</footer></main>
+</body></html>
